@@ -57,8 +57,9 @@ body {
   border-radius: 50%;
   box-shadow: var(--box-shadow);
   transition: 0.4s;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .theme-toggle {
   position: absolute;
